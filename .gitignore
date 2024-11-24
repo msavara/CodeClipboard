@@ -1,0 +1,63 @@
+# Exclude binary and object directories
+[Bb]in/
+[Oo]bj/
+
+# Exclude Visual Studio code directory
+.vs/
+.vscode/
+
+# Exclude JetBrains directories and files (e.g., IntelliJ, PyCharm, WebStorm)
+.idea/
+.idea
+*.iml
+
+# Exclude Visual Studio user settings
+*.user
+*.userosscache
+*.suo
+
+# Exclude NuGet packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Exclude package manager configuration files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Exclude build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+
+# Exclude various files and directories
+*.log
+*.log.*
+*.csv
+*.tmp
+*.Temp
+*.tmp_proj
+*.LoadTestDatabase
+*.pidb
+*.mdf
+*.ldf
+*.BackupSettings
+*.PublishSettings
+*.userprefs
+*.csproj.user
+*.sln.docstates
+
+# Exclude macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Exclude Thumb db files
+Thumbs.db
+ehthumbs.db
